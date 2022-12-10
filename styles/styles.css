@@ -26,19 +26,18 @@ button{
 .list {list-style: none;}
 .link {text-decoration: none;}
 .cection{
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 /* header */
 body
 {font-family: var(--primary-font);
 }
 .container{
-    width:1158px;
+    width:1128px;
     margin-left:auto;
     margin-right:auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  
 }
 
 .page-header-container{
@@ -79,6 +78,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primari-text-color);
+padding-left: 15px;
+padding-right: 15px;
 }
 .menu-link:hover,
 .menu-link:focus{
@@ -146,6 +147,7 @@ text-transform: uppercase;
        width: 492px;
        text-align: center;
        margin: auto;
+       margin-bottom: 64px;
     }
 .modal-btn{
     font-family: inherit;
@@ -167,11 +169,6 @@ min-width: 160px;
 margin:auto;
 
 
-
-
-
-
-
 }
 
 .modal-btn:hover,
@@ -186,17 +183,19 @@ margin:auto;
 /* ----section2---- */
 .cerv-list{
     display: flex;
+    
 }
-.cerv-list:not(:last-child) {
-    margin-right: 240px;}
+
 .service-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
+margin-right: 24px;
 color:var(--primari-text-color) ;
 }
+
 .servis-text{
 font-size: 16px;
 line-height: 1.5;
@@ -224,14 +223,19 @@ flex-wrap: wrap;
 }
 .about-tiam{
     background-color: #FFFFFF;
+    margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
     padding: 0px 0px 32px;
 gap: 32px;
+}
+.about-doing{
+    padding-bottom: 120px;
 }
  .about-work{
     margin-right: 24px;}
     .list-work{
         padding-left: 0px;
+        padding-bottom: 120px;
     }
    
  
@@ -255,13 +259,15 @@ color: var(--secondary-text-color);
 text-align: center;}
 .list{
     display:flex;
-    justify-content: space-between;
+    
 }
 /* -----footer----- */
 .page-footer{
     background: #2E2F42;
     padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 156px;
+    
                
 }
 
@@ -270,13 +276,21 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 width:264px;
-padding-bottom: 100px;
-padding-top: 16px;
-color:var(--accent-text-color);}
+margin-top: 16px;
 
+color:var(--accent-text-color);}
+.text-footer{
+    padding-left: 156px;
+}
 
 
 /* page portfolio */
+.portfoolio-cection{
+    padding-top: 108px; 
+    padding-left: 156px;
+    padding-bottom: 120px;
+    padding-right: 156px;
+}
 .list-btn{
     font-family: inherit;
     font-weight: 500;
@@ -299,8 +313,7 @@ border-radius: 4px;
     .list-btn-container{
        display: flex;
              justify-content:center;
-       margin-top: 92px;
-       margin-bottom: 76px;
+              margin-bottom: 76px;
        
           }
     
@@ -329,22 +342,20 @@ color: var(--primari-text-color);
             line-height:1.2;
             letter-spacing: 0.02em;
             color: var(--primari-text-color);
-        margin-top: 32px;
-        margin-bottom: 8px;
-        margin-left: 16px;
+           
+        
         }
         .portfolio-about-text{
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--secondary-text-color);
-            margin-bottom: 16px;
-            margin-left: 16px;
+            padding-top: 8px;
         }
         
             
               
-            .logo-footer{
+.logo-footer{
                 font-family: 'Raleway',sans-serif;
                  font-weight: 800;
                 font-size: 18px;
@@ -361,15 +372,21 @@ color: var(--primari-text-color);
 column-gap: 24px;
 row-gap: 48px;
 padding-bottom:120px;
+padding-left: 0px;
 }
-        .card{
-            border: 0.5px solid #F4F4FD;}
-            .card:hover,
-            .card:focus{
+        
+ .card:hover,
+ .card:focus{
                 color: #FFFFFF;
-                background-color: #4D5AE5; 
+                 
                 cursor: pointer;
         }
-        .footer-portfolio{
+.card-text{
+padding-top: 32px;
+padding-bottom: 32px;
+padding-left: 16px;
+border: 0.5px solid #F4F4FD;
+        }
+ .footer-portfolio{
             background: #2E2F42;}
             
