@@ -47,16 +47,21 @@ body
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+  
 
 }
 .logo{
     margin-right: 77px;
+      padding-top: 24px;
+    padding-bottom: 24px;
 }
 .page-nav{
     display: flex;
-align-items: center;}
+align-items: center;
+ 
+  }
+ 
+
 .menu {
 display: flex;
 align-items: center;
@@ -68,6 +73,7 @@ align-items: center;
 .contact{
 display:flex;
 align-items: center;
+
 
 }
 .logo-web:hover,
@@ -82,8 +88,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primari-text-color);
-padding-left: 15px;
-padding-right: 15px;
+
 padding-top: 24px;
  padding-bottom: 24px;
  }
@@ -200,16 +205,18 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-margin-right: 24px;
 color:var(--primari-text-color) ;
 }
 
 .servis-text{
 font-size: 16px;
 line-height: 1.5;
-margin-right: 24px;
 color: var(--secondary-text-color);
 }
+.servis-list:not(:last-child){
+    margin-right: 24px;
+}
+
 .about{
     font-weight: 500;
 font-size: 36px;
@@ -223,26 +230,28 @@ text-align: center;
 }
 .about-doing {
     padding-top:0 ;
+    padding-bottom: 120px;
 }
 .section-team{
 background: #F4F4FD;
-padding-top: 120px;
+
 padding-bottom:120px;
 flex-wrap: wrap;
 
 }
+.about-tiam:not(:last-child){
+    margin-right: 24px;
+}
 .about-tiam{
     background-color: #FFFFFF;
-    margin-right: 24px;
-    border-radius: 0px 0px 4px 4px;
+        border-radius: 0px 0px 4px 4px;
    
 }
 
- .about-work{
+ .about-work:not(:last-child){
     margin-right: 24px;}
     .list-work{
         padding-left: 0px;
-        padding-bottom: 120px;
     }
    
  
@@ -297,10 +306,8 @@ color:var(--accent-text-color);}
 /* page portfolio */
 .portfoolio-cection{
     padding-top: 108px; 
-    padding-left: 156px;
-    padding-bottom: 120px;
-    padding-right: 156px;
-}
+       padding-bottom: 120px;
+    }
 .list-btn{
     font-family: inherit;
     font-weight: 500;
